@@ -1,8 +1,17 @@
 {
   "name": "react-native-material-buttons-no-proptypes",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "license": "BSD-3-Clause",
-  "author": "Philip Beber <philip.beber@gmail.com>",
+  "contributors": [
+    {
+      "name": "Alexander Nazarov",
+      "email": "n4kz@n4kz.com"
+    },
+    {
+      "name": "Philip Beber",
+      "email": "philip.beber@gmail.com"
+    }
+  ],
   "description": "Material buttons",
   "keywords": [
     "react",
