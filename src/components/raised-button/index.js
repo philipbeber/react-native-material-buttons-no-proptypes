@@ -5,9 +5,6 @@ import { styles } from './styles';
 import Button from '../button';
 
 export default class RaisedButton extends PureComponent {
-  static propTypes = {
-    ...Button.propTypes,
-  };
 
   constructor(props) {
     super(props);

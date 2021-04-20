@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View, Animated, Easing } from 'react-native';
 import Ripple from 'react-native-material-ripple';
@@ -23,25 +22,6 @@ export default class Button extends PureComponent {
     disableAnimationDuration: 225,
 
     disabled: false,
-  };
-
-  static propTypes = {
-    ...Ripple.propTypes,
-
-    color: PropTypes.string,
-    disabledColor: PropTypes.string,
-
-    shadeColor: PropTypes.string,
-    shadeOpacity: PropTypes.number,
-    shadeBorderRadius: PropTypes.number,
-
-    focusAnimation: PropTypes.instanceOf(Animated.Value),
-    focusAnimationDuration: PropTypes.number,
-
-    disableAnimation: PropTypes.instanceOf(Animated.Value),
-    disableAnimationDuration: PropTypes.number,
-
-    payload: PropTypes.any,
   };
 
   constructor(props) {

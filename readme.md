@@ -1,11 +1,11 @@
-[npm-badge]: https://img.shields.io/npm/v/react-native-material-buttons.svg?colorB=ff6d00
-[npm-url]: https://npmjs.com/package/react-native-material-buttons
-[license-badge]: https://img.shields.io/npm/l/react-native-material-buttons.svg?colorB=448aff
-[license-url]: https://raw.githubusercontent.com/n4kz/react-native-material-buttons/master/license.txt
+[npm-badge]: https://img.shields.io/npm/v/react-native-material-buttons-no-proptypes.svg?colorB=ff6d00
+[npm-url]: https://npmjs.com/package/react-native-material-buttons-no-proptypes
+[license-badge]: https://img.shields.io/npm/l/react-native-material-buttons-no-proptypes.svg?colorB=448aff
+[license-url]: https://raw.githubusercontent.com/philipbeber/react-native-material-buttons-no-proptypes/master/license.txt
 [example-url]: https://cloud.githubusercontent.com/assets/2055622/23826422/df52a53c-06ac-11e7-855f-f6d189c50320.gif
-[ripple]: https://github.com/n4kz/react-native-material-ripple#properties
+[ripple]: https://github.com/philipbeber/react-native-material-ripple#properties
 
-# react-native-material-buttons
+# react-native-material-buttons-no-proptypes
 
 [![npm][npm-badge]][npm-url]
 [![license][license-badge]][license-url]
@@ -25,14 +25,14 @@ Material buttons with consistent behaviour on iOS and Android
 ## Installation
 
 ```bash
-npm install --save react-native-material-buttons
+npm install --save react-native-material-buttons-no-proptypes
 ```
 
 ## Usage
 
 ```javascript
 import React, { Component } from 'react';
-import { TextButton, RaisedTextButton } from 'react-native-material-buttons';
+import { TextButton, RaisedTextButton } from 'react-native-material-buttons-no-proptypes';
 
 class Example extends Component {
   _onPress = ({ id }) => {
@@ -89,8 +89,8 @@ Other [Ripple][ripple] properties will also work
 ## Example
 
 ```bash
-git clone https://github.com/n4kz/react-native-material-buttons
-cd react-native-material-buttons/example
+git clone https://github.com/philipbeber/react-native-material-buttons-no-proptypes
+cd react-native-material-buttons-no-proptypes/example
 npm install
 npm run ios # or npm run android
 ```

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { AppRegistry, Text, ScrollView, View, SafeAreaView } from 'react-native';
-import { TextButton, RaisedTextButton } from 'react-native-material-buttons';
+import { TextButton, RaisedTextButton } from 'react-native-material-buttons-no-proptypes';
 
 let styles = {
   scroll: {
